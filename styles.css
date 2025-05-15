@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,200;0,300;0,400;1,500;1,600;0,700;1,800;0,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans Pro:ital,wght@0,200;1,300;0,400;1,600;0,700;1,900&display=swap");
 
 * {
   padding: 0;
@@ -118,7 +119,7 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  width: 50px;
+  width: 200px;
   height: 100%;
   background: linear-gradient(to right, transparent, #232830);
 }
@@ -202,11 +203,37 @@ footer {
   padding: 2rem;
 }
 
+footer > p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
 .kamrify-mention {
+  display: inline-block;
   background-color: #4699e0;
   border-radius: 5px;
   color: #fff;
-  /* * don't forget to change the style to make it like a button */
+  padding: 5px;
+  font-size: 19px;
+  transform: translateY(-2.5px);
+  cursor: pointer;
+}
+
+.kamrify-mention:active {
+  background-color: #3e85c2;
+}
+
+footer > p > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+  display: inline-block;
+  background-color: #4699e0;
+  padding: 5px;
+  border-radius: 5px;
+  transform: translateY(-2.5px);
 }
 
 /* todo: don't forget to make the follow writingsdev p element like a button */
