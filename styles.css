@@ -77,8 +77,12 @@ li > a {
   font-family: "Poppins", sans-serif;
 }
 
-#categories {
+hr {
+  border: 0;
   border-top: 3px solid #4d4d4d;
+}
+
+#categories {
   display: flex;
   gap: 10px;
   justify-content: space-evenly;
