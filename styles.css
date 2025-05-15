@@ -171,3 +171,42 @@ main {
   margin-left: 0;
   display: block;
 }
+
+.pages-container {
+  width: 50%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.pages-container > p {
+  font-family: "Recursive", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 25px;
+  color: #909090;
+}
+
+.pages-container > p > span {
+  display: inline-block;
+  transform: translateY(-2.5px);
+  width: 150%;
+  color: #ff7575;
+  border-top: 3px solid #ff7575;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.kamrify-mention {
+  background-color: #4699e0;
+  border-radius: 5px;
+  color: #fff;
+  /* * don't forget to change the style to make it like a button */
+}
+
+/* todo: don't forget to make the follow writingsdev p element like a button */
