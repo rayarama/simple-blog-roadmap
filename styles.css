@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,200;0,300;0,400;1,500;1,600;0,700;1,800;0,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #232830;
+}
+
+header {
+  margin: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
